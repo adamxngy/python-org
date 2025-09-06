@@ -49,7 +49,7 @@ project_root/<br>
 - Cross-browser testing basics
 - HTML report generation
 
-## 🚀 Getting Started
+## Getting Started
 
 1. **Clone the repository**
 
