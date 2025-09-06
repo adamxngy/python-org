@@ -48,3 +48,38 @@ project_root/<br>
 - Writing maintainable and reusable test scripts
 - Cross-browser testing basics
 - HTML report generation
+
+## 🚀 Getting Started
+
+1. **Clone the repository**
+
+```bash
+git clone <your-repo-url>
+cd <repo-folder>
+```
+
+2. **Install dependencies**
+
+```bash
+pip install -r requirements.txt
+```
+
+3. **Run tests**
+
+By default, all tests run in Chrome. To run them in Firefox:
+
+```bash
+pytest --browser firefox
+```
+
+Generate html report:
+
+```bash
+pytest --browser firefox --html=reports/report.html
+```
+
+Run a specific test with marker:
+
+```bash
+pytest -m smoke --browser firefox
+```
